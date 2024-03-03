@@ -4,6 +4,7 @@ install.packages("ggplot2")
 library(tidyverse)
 library(lubridate)
 library(ggplot2)
+library(dplyr)
 
 # Loading and inspecting the data
 yearly_stats <- read_csv("population_yearly_stats.csv")
@@ -83,7 +84,6 @@ europe_df3<- europe_df2[,-63]
 view(europe_df3)
 
 # Group columns by decades
-library(dplyr)
 europe_df_decades <- europe_df3 %>%
   gather(year, value, -country_code, -table_name, -income_group) %>%
   mutate(decade = as.integer(substring(as.character(year), 1, 3)) * 10) %>%
