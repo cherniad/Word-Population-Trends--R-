@@ -32,13 +32,11 @@ __Steps:__
 5. Create the interactive map:
 
 
-           a) the size of bins is determined by the population of the country
+     a) the size of bins is determined by the population of the country
 
-
-           b) the colour of bins corresponds to the income group
-
-
-           c) cursor analysis show the information about country name, population, income group and average population in the last decade
+     b) the colour of bins corresponds to the income group
+ 
+     c) cursor analysis show the information about country name, population, income group and average population in the last decade
 
   _Preview:_
 
