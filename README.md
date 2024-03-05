@@ -15,8 +15,14 @@ __Steps:__
 1. Load and merge population_yearly_stats.csv and income_info.csv in one dataframe
 
 2. Process the data:
+
+
      a) drop the columns not needed for the model
+
+
      b) rename the columns
+
+
      c) check NaN values and drop the rows if not needed for the analysis 
 
 3. Group the columns by decades and calculate the average by each decade 
@@ -24,8 +30,14 @@ __Steps:__
 4. Load countries_codes_and_coordinates 3.csv to use for the interactive map
 
 5. Create the interactive map:
+
+
            a) the size of bins is determined by the population of the country
+
+
            b) the colour of bins corresponds to the income group
+
+
            c) cursor analysis show the information about country name, population, income group and average population in the last decade
 
   _Preview:_
